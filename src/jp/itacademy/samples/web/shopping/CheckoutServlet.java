@@ -13,7 +13,7 @@ import jp.itacademy.samples.web.BaseServlet;
 @WebServlet("/checkout")
 public class CheckoutServlet extends BaseServlet {
 
-    protected void doGet(HttpServletRequest req, HttpServletResponse res)
+    protected void doPost(HttpServletRequest req, HttpServletResponse res)
             throws ServletException, IOException {
 
         HttpSession session = req.getSession();

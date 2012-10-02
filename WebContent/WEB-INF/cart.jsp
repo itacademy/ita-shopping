@@ -39,7 +39,7 @@ p.link {
 }
 </style>
 
-<form action="${pageContext.request.contextPath}/checkout">
+<form action="${pageContext.request.contextPath}/checkout" method="post">
   <input type="submit" value="購入する">
 </form>
 
